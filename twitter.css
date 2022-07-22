@@ -21,8 +21,29 @@ float: left;
     }
     .bottom-div{
         width: 100%;
-        height: 60px;
+        height: 80px;
         background-color: black;
         float: left;
 
+        }
+        .about{
+
+            font-size: 13px;
+            padding-right: 10px;
+            color: rgb(113, 118, 123);
+            font-weight: 500;
+            font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 16px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .bottom-container{
+            margin-top: 16px;
+            margin-left: 40px;
+            margin-right: 40px;
+            cursor: pointer;
+        }
+        .settings{
+            margin-left: 45%;
+            margin-top: 6px;
         }
