@@ -1,49 +1,270 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
-.left-div{
-width: 50%;
-height: 650px;
-background-image: url("twitter.jpg"); /* The image used */
+/*To add external font */
+
+@import url(//db.onlinewebfonts.com/c/dc0c9cb78690bb482ae3bb782c3cc693?family=);
+
+@font-face {
+  font-family: "Roc Grotesk Bold";
+  src: url("//db.onlinewebfonts.com/t/dc0c9cb78690bb482ae3bb782c3cc693.eot");
+  src: url("//db.onlinewebfonts.com/t/dc0c9cb78690bb482ae3bb782c3cc693.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/dc0c9cb78690bb482ae3bb782c3cc693.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/dc0c9cb78690bb482ae3bb782c3cc693.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/dc0c9cb78690bb482ae3bb782c3cc693.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/dc0c9cb78690bb482ae3bb782c3cc693.svg#")
+      format("svg");
+}
+/*Ends here*/
+.left-div {
+  width: 50%;
+  height: 800px;
+  background-image: url("twitter.jpg"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
-  height: 650px; /* You must set a specified height */
+  height: 800px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-float: left;
+  float: left;
 }
-.right-div{
-    width: 50%;
-    height: 650px;
-    background-color: black;
-    float: left;
-    }
-    .bottom-div{
-        width: 100%;
-        height: 80px;
-        background-color: black;
-        float: left;
+.right-div {
+  width: 50%;
+  height: 800px;
+  background-color: black;
+  float: left;
+}
+.bottom-div {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  float: left;
+}
+.about {
+  font-size: 13px;
+  padding-right: 10px;
+  color: rgb(113, 118, 123);
+  font-weight: 500;
+  font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  line-height: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.bottom-container {
+  margin-top: 16px;
+  margin-left: 40px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.settings {
+  margin-left: 45%;
+  margin-top: 6px;
+}
+.twitter-logo {
+  margin-top: 50px;
+  margin-left: 50px;
+  background-image: url("twitter_white_logo.png"); /* The image  /* Used if the image is unavailable */
+  height: 40px; /* You must set a specified height */
+  width: 50px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.content-1 {
+  width: 600px;
+  height: 10%;
+  margin-left: 50px;
+  margin-top: 90px;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Roc Grotesk Bold";
+  letter-spacing: -1.2px;
+  color: rgb(231, 233, 234);
+}
+.content-2 {
+  width: 600px;
+  height: 10%;
+  margin-left: 50px;
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Roc Grotesk Bold";
+  letter-spacing: -1.2px;
+  color: rgb(231, 233, 234);
+}
+.google {
+  background-color: white;
+  text-align: center;
+  font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  width: 300px;
+  height: 5%;
+  border-radius: 30px;
+  margin-left: 50px;
+}
+.apple {
+  background-color: white;
 
-        }
-        .about{
+  width: 300px;
+  height: 5%;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
 
-            font-size: 13px;
-            padding-right: 10px;
-            color: rgb(113, 118, 123);
-            font-weight: 500;
-            font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 16px;
-            text-decoration: none;
-            cursor: pointer;
-        }
-        .bottom-container{
-            margin-top: 16px;
-            margin-left: 40px;
-            margin-right: 40px;
-            cursor: pointer;
-        }
-        .settings{
-            margin-left: 45%;
-            margin-top: 6px;
-        }
+/*Here to align sign up logo and text i used two containers and aligned them perpendicular using float*/
+
+.text {
+  /*text div*/
+  width: 140px;
+  margin-top: 13px;
+  margin-left: 3px;
+  text-align: center;
+  font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500px;
+  font-size: 15px;
+  float: left;
+}
+
+.logo_google {
+  /*logo div*/
+  margin-left: 65px;
+  margin-top: 10px;
+  width: 10px;
+  height: 10px;
+  background-image: url("google-icon.svg"); /* The image  /* Used if the image is unavailable */
+  height: 20px; /* You must set a specified height */
+  width: 30px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  float: left;
+}
+
+.logo_apple {
+  /*logo div*/
+  margin-left: 70px;
+  margin-top: 10px;
+  width: 10px;
+  height: 10px;
+  background-image: url("apple_logo.png"); /* The image  /* Used if the image is unavailable */
+  height: 20px; /* You must set a specified height */
+  width: 30px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  float: left;
+}
+
+.line_container {
+  width: 300px;
+  height: 3%;
+  margin-left: 50px;
+  margin-top: 8px;
+}
+
+.line_1 {
+  background-color: #d6d9db;
+  width: 130px;
+  height: 0.5px;
+  margin-right: 10px;
+  margin-top: 9px;
+  float: left;
+  opacity: 0.3;
+}
+.line_2 {
+  background-color: #d6d9db;
+  width: 130px;
+  height: 0.5px;
+  margin-top: 9px;
+  float: left;
+  opacity: 0.3;
+}
+
+.or {
+  width: 20px;
+  height: 0px;
+  margin-top: 3px;
+  margin-right: 7px;
+  background-color: blueviolet;
+  color: #d6d9db;
+  float: left;
+  font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+}
+
+.phone {
+  background-color: #1d9bf0;
+  text-align: center;
+  font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: 600px;
+  padding-top: 0.1px;
+  padding-bottom: 1px;
+  padding-left: 0px;
+  width: 300px;
+  height: 5%;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-top: 4px;
+}
+
+.terms {
+  margin-left: 50px;
+  width: 330px;
+  color: rgb(113, 118, 123);
+  font-size: 11px;
+  font-weight: 400;
+  font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+}
+
+.dec_link {
+  color: #1d9bf0;
+  text-decoration: none;
+}
+
+.account_exist {
+  margin-left: 50px;
+  margin-top: 60px;
+  color: rgb(231, 233, 234);
+  font-size: 17px;
+  font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+/*T0 show the border only in a div use border-style*/
+.sign_in {
+  border-width: 1px;
+  border-color: rgb(
+    255,
+    255,
+    255,
+    0.3
+  ); /*To give opacity to border only use rgb mode and give the opacity at the end*/
+  border-style: solid;
+  text-align: center;
+  font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  width: 300px;
+  height: 5%;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 15px;
+  font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  color: rgb(29, 155, 240);
+  font-weight: 600;
+  padding-bottom: 2px;
+}
