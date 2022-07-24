@@ -1,1 +1,1 @@
-Twitter login page clone using HTML and CSS
+Twitter login page(Static) clone using HTML and CSS
